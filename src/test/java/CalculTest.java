@@ -7,7 +7,9 @@ import javax.annotation.Resource;
 
 import static org.junit.Assert.assertEquals;
 
-
+/**
+ * 测试类
+ */
 public class CalculTest extends BaseTest {
 
     @Resource

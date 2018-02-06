@@ -5,5 +5,4 @@
 
 <bean name="calcul" class="caluation.Calcul"/>
 
-
 </beans>

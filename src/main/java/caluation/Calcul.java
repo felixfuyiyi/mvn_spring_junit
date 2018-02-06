@@ -4,6 +4,9 @@ import org.apache.log4j.Logger;
 
 import java.math.BigDecimal;
 
+/**
+ * 计算业务类类
+ */
 public class Calcul {
     private static Logger log = Logger.getLogger(Calcul.class);
 
