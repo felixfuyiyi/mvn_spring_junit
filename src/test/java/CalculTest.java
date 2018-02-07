@@ -1,6 +1,8 @@
 
 import junit.BaseTest;
 import caluation.Calcul;
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 
 import javax.annotation.Resource;
@@ -14,6 +16,15 @@ public class CalculTest extends BaseTest {
 
     @Resource
     private Calcul calcul;
+
+    @Before
+    public void init() {
+        //在运行测试之前的业务代码
+    }
+    @After
+    public void after() {
+        //在测试完成之后的业务代码
+    }
 
     @Test
     public void testHello(){
